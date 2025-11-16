@@ -1,18 +1,50 @@
-## Getting Started
+🟡 PacMan Game (Java)
+A simple PacMan game built using Java, featuring custom sprites, collision detection, ghost movement, and keyboard-controlled gameplay.
+This project was created as a personal learning exercise to strengthen my Java programming and game development skills.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<img width="608" height="706" alt="image" src="https://github.com/user-attachments/assets/437c8fbc-ee0b-4be8-9132-cad11d4febbc" />
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+🎮 Features
+Classic PacMan movement (up, down, left, right)
+Ghost enemies with basic AI movement
+Collectible pellets (food)
+Walls and maze layout
+Collision detection
+Game loop using Java Timer
+Smooth animations with PNG sprites
+Keyboard controls using KeyListener
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+🧰 Tech Stack
+Language: Java
+Graphics: AWT & Swing
+IDE: VS Code
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+📁 Project Structure
+PACMAN/
+ ├─ src/
+ │   ├─ App.java
+ │   ├─ PacMan.java
+ │   ├─ *.png  (sprites)
+ ├─ bin/        (compiled classes)
+ ├─ lib/        (libraries if any)
+ ├─ README.md
+ ├─ .gitignore
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ ▶️ How to Run
+ 01. Ensure Java 8+ is installed:
+    java -version
+
+ 02. Compile the game:
+    javac src/*.java
+
+ 03. Run the game:
+    java -cp src App
+
+Or simply open it in any Java-supported IDE and run App.java.
+
+
+📚 Learning Source
+This project was built as a personal learning exercise, following guidance from a YouTube game development tutorial. I expanded on the concepts to understand Java graphics, game loops, event handling, and sprite-based animations more deeply.
