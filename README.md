@@ -8,6 +8,7 @@ This project was created as a personal learning exercise to strengthen my Java p
 
 
 
+
 🎮 Features
 
 Classic PacMan movement (up, down, left, right)
@@ -37,18 +38,6 @@ IDE: VS Code
 
 
 
-📁 Project Structure
-
-PACMAN/
- ├─ src/
- │   ├─ App.java
- │   ├─ PacMan.java
- │   ├─ *.png  (sprites)
- ├─ bin/        (compiled classes)
- ├─ lib/        (libraries if any)
- ├─ README.md
- ├─ .gitignore
-
 
  ▶️ How to Run
  
@@ -63,6 +52,7 @@ PACMAN/
 
 
 Or simply open it in any Java-supported IDE and run App.java.
+
 
 
 
